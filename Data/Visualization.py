@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def Plot_Fetch(file_id):
     colors = ['#77A1D3', '#79CBCA']
 
-    df = pd.read_csv(f'Data/fetch_log{file_id}.csv', index_col=0)
+    df = pd.read_csv(f'./fetch_log{file_id}.csv', index_col=0)
     ax = df.plot(kind='bar', color=colors, figsize=(10, 6))
 
     plt.xlabel('Number of Test Runs', fontsize=14, labelpad=10)
