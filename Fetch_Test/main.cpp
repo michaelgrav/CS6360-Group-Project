@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstdlib> // For rand() and srand()
-#include <ctime>   // For time()
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -40,7 +40,6 @@ int main() {
 
     file.close();
 
-    // Open the log file
     std::ofstream logfile("./timing_log.txt");
     if (!logfile.is_open()) {
         std::cerr << "Error: Could not open log file." << std::endl;
