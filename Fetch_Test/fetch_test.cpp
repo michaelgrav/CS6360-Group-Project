@@ -24,7 +24,7 @@ string getLineAtPosition(const string& filename, int position) {
 }
 
 int main() {
-    string filename = "./donations-compressed-edfe";
+    string filename = "./dataset.csv";
     ifstream file(filename);
 
     if (!file.is_open()) {
