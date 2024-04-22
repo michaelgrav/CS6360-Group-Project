@@ -1,0 +1,15 @@
+# ninja log v5
+534	581	1712867152349266657	databaseBitweavingV	71f86c3b2a9bc859
+1	669	1712866855363138338	CMakeFiles/databaseBitweavingV.dir/main.cpp.o	84efc6b701f9e73
+1	534	1712867152298737824	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+0	78	1712867305995535273	build.ninja	438ac1b894fe8234
+1	528	1712867522417445747	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+528	571	1712867522462481204	databaseBitweavingV	71f86c3b2a9bc859
+1	520	1712867528927138328	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+520	573	1712867528982773498	databaseBitweavingV	71f86c3b2a9bc859
+1	530	1712867544637387942	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+531	576	1712867544686424370	databaseBitweavingV	71f86c3b2a9bc859
+1	708	1712867668641442262	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+708	765	1712867668701163402	databaseBitweavingV	71f86c3b2a9bc859
+1	692	1713297145860806983	CMakeFiles/databaseBitweavingV.dir/BitWeavingV.cpp.o	cf1d7a173d327a85
+692	751	1713297145923669182	databaseBitweavingV	71f86c3b2a9bc859

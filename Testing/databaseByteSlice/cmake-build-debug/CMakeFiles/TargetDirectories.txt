@@ -1,0 +1,3 @@
+/Users/yuliang/CLionProjects/databaseByteSlice/cmake-build-debug/CMakeFiles/databaseByteSlice.dir
+/Users/yuliang/CLionProjects/databaseByteSlice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yuliang/CLionProjects/databaseByteSlice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/yuliang/CLionProjects/databaseBitweavingV/cmake-build-debug/CMakeFiles/databaseBitweavingV.dir
+/Users/yuliang/CLionProjects/databaseBitweavingV/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yuliang/CLionProjects/databaseBitweavingV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
