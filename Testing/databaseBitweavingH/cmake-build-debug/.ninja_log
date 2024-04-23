@@ -1,9 +1,0 @@
-# ninja log v5
-0	355	1712261989973717605	CMakeFiles/databaseBitweavingH.dir/main.cpp.o	81192f31910c167
-355	390	1712261990010274489	databaseBitweavingH	470089bff0d53a42
-2	835	1713296927945834384	CMakeFiles/databaseBitweavingH.dir/main.cpp.o	81192f31910c167
-835	923	1713296928038491470	databaseBitweavingH	470089bff0d53a42
-1	706	1713745467353878401	CMakeFiles/databaseBitweavingH.dir/main.cpp.o	81192f31910c167
-706	766	1713745467417010244	databaseBitweavingH	470089bff0d53a42
-1	696	1713745494200264343	CMakeFiles/databaseBitweavingH.dir/main.cpp.o	81192f31910c167
-696	767	1713745494275507507	databaseBitweavingH	470089bff0d53a42
