@@ -29,3 +29,14 @@ The project is split into different folders for each test we did on DFE/EDFE, an
 - Ride Data: https://www.kaggle.com/code/omkarpatil2401/ride-data-anlaysis/input
 
 # How to run the code
+## Steps
+- Git clone the repo.
+- Open the folder 'Testing'.
+- Copy the dataset file(donations-compressed-reg-int/dfe/edfe) you want to test on.
+- Paste into one of the three(ByteSlice/BitweavingV/BitweavingH) corresponding folders (e.g. BitweavingVEDFE).
+- In main function, change the path to the absolute path of the dataset on your device.
+- Run main.cpp.
+
+## Results
+- Our testing result is stored in Testing/CS6360 Testing Result.xlsx
+- The result plot is Testing/resultPlot/png
