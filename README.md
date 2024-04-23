@@ -34,7 +34,7 @@ The project is split into different folders for each test we did on DFE/EDFE, an
 ## Scan Test
 ### Steps
 - Git clone the repo.
-- Open the folder 'Testing'.
+- Open the folder 'Scan_test'.
 - Copy the dataset file(donations-compressed-reg-int/dfe/edfe) you want to test on.
 - Paste into one of the three(ByteSlice/BitweavingV/BitweavingH) corresponding folders (e.g. BitweavingVEDFE).
 - In main function, change the path to the absolute path of the dataset on your device.
