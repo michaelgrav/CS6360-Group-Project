@@ -116,7 +116,7 @@ int main() {
 
     ByteSlice bs(32); // Initialize with a large enough number of bits per value
 
-    bs.readValuesFromFile("/Users/yuliang/CLionProjects/databaseByteSlice/donations-compressed-reg-int"); // Ensure the filename matches your actual data file
+    bs.readValuesFromFile("/Users/yuliang/CLionProjects/databaseByteSlice/donations-compressed-reg-int"); 
     bs.scanLessThan(1000); // Use the maximum value of uint32_t as the threshold
 
     // End the timer

@@ -171,7 +171,7 @@ int main() {
     inFile.seekg(0, std::ios::beg);
     size_t numValues = fileSize / sizeof(uint32_t);
 
-    // Assuming the encoded integers are 32 bits, pass 32 as the second argument for bit size
+    // 32 bits
     ByteSlice byteSlice(numValues, 32);
 
     // Load and decode EDFE data
@@ -185,7 +185,7 @@ int main() {
     auto startTime = std::chrono::high_resolution_clock::now();
 
     // Perform the search and capture the results
-    std::vector<size_t> results = byteSlice.scanLessThan(1000); // Example search threshold
+    std::vector<size_t> results = byteSlice.scanLessThan(1000); 
 
     // Stop timing
     auto endTime = std::chrono::high_resolution_clock::now();

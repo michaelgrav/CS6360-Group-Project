@@ -11,14 +11,14 @@ const int ENCODED_INT_BITS = 32;
 // Decode function for DFE
 uint32_t decodeDFE(uint32_t encodedValue) {
     int totalBits = 32;
-    int shiftFieldLength = 6; // Assuming the first 6 bits for the shift value
+    int shiftFieldLength = 6; 
     int valueFieldLength = totalBits - shiftFieldLength;
 
     // The first 6 bits indicate the number of positions the significant bits are shifted left
     int numLeadingZeros = (encodedValue >> (totalBits - shiftFieldLength)) & ((1 << shiftFieldLength) - 1);
 
     // Calculate the actual shift needed to restore the original bits
-    int actualShift = totalBits - numLeadingZeros - 8; // 8 is the number of bits in the original number (assuming 8 significant bits)
+    int actualShift = totalBits - numLeadingZeros - 8; // 8 is the number of bits in the original number 
 
     // Mask to extract the significant bits then shift them right
     uint32_t mask = ((1 << (valueFieldLength - numLeadingZeros)) - 1) << numLeadingZeros;
@@ -80,7 +80,7 @@ int main() {
     }
     inFile.close();
 
-    uint32_t searchThreshold = 1000;  // Set threshold to 1000
+    uint32_t searchThreshold = 1000;  // threshold
 
     auto startTime = std::chrono::high_resolution_clock::now();
     std::vector<size_t> results = bitWeaving.searchLessThan(searchThreshold);

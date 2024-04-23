@@ -81,7 +81,7 @@ public:
 };
 
 int main() {
-    const std::string filename = "/Users/yuliang/CLionProjects/BitweavingVEDFE/donations-compressed-edfe"; // Replace with the actual file path
+    const std::string filename = "/Users/yuliang/CLionProjects/BitweavingVEDFE/donations-compressed-edfe"; 
     std::ifstream inFile(filename, std::ios::binary);
 
     if (!inFile) {
@@ -93,10 +93,10 @@ int main() {
     inFile.seekg(0, std::ios::end);
     size_t fileSize = inFile.tellg();
     inFile.seekg(0, std::ios::beg);
-    size_t numValues = fileSize / sizeof(uint16_t); // Assuming 16-bit values in the file
+    size_t numValues = fileSize / sizeof(uint16_t); 
 
     // Create a BitweavingV object with the correct number of values
-    BitweavingV bitweaving(numValues, 32); // 16 bits per value for EDFE
+    BitweavingV bitweaving(numValues, 32); // 32 bits values
 
     // Read and decode values from the file
     uint16_t encodedValue;

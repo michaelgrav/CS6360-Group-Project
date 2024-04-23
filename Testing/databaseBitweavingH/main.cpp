@@ -134,7 +134,7 @@ int main() {
 
     BitWeavingH bwh(32); // 32 bits per value
 
-    bwh.readValuesFromFile("/Users/yuliang/CLionProjects/databaseBitweavingH/donations-compressed-reg-int"); // Ensure the filename matches your actual data file
+    bwh.readValuesFromFile("/Users/yuliang/CLionProjects/databaseBitweavingH/donations-compressed-reg-int"); 
     bwh.scanLessThan(1000); // threshold
 
     // End the timer

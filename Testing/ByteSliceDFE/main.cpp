@@ -9,14 +9,13 @@
 
 uint32_t decodeDFE(uint32_t encodedValue) {
     int totalBits = 32;
-    int shiftFieldLength = 6; // Assuming the first 6 bits for the shift value
+    int shiftFieldLength = 6; 
     int valueFieldLength = totalBits - shiftFieldLength;
 
-    // The first 6 bits indicate the number of positions the significant bits are shifted left
     int numLeadingZeros = (encodedValue >> (totalBits - shiftFieldLength)) & ((1 << shiftFieldLength) - 1);
 
     // Calculate the actual shift needed to restore the original bits
-    int actualShift = totalBits - numLeadingZeros - 8; // 8 is the number of bits in the original number (assuming 8 significant bits)
+    int actualShift = totalBits - numLeadingZeros - 8; // 8 is the number of bits in the original number
 
     // Mask to extract the significant bits then shift them right
     uint32_t mask = ((1 << (valueFieldLength - numLeadingZeros)) - 1) << numLeadingZeros;
@@ -149,7 +148,7 @@ void loadDFEData(const std::string& filename, ByteSlice& byteSlice) {
 //    return 0;
 //}
 int main() {
-    const std::string filename = "/Users/yuliang/CLionProjects/BytesliceDFE/donations-compressed-dfe"; // Use the actual path to your file
+    const std::string filename = "/Users/yuliang/CLionProjects/BytesliceDFE/donations-compressed-dfe"; 
     std::ifstream inFile(filename, std::ios::binary | std::ios::ate);
     if (!inFile) {
         std::cerr << "Unable to open file: " << filename << std::endl;
@@ -175,7 +174,7 @@ int main() {
     auto startTime = std::chrono::high_resolution_clock::now();
 
     // Perform the search and capture the results
-    std::vector<size_t> results = byteSlice.scanLessThan(1000); // Example search threshold
+    std::vector<size_t> results = byteSlice.scanLessThan(1000); // threshold
 
     // Stop timing
     auto endTime = std::chrono::high_resolution_clock::now();
