@@ -80,7 +80,7 @@ public:
 };
 
 int main() {
-    const std::string filename = "/Users/yuliang/CLionProjects/BitweavingHEDFE/donations-compressed-edfe";  // Replace with actual file path
+    const std::string filename = "/Users/yuliang/CLionProjects/BitweavingHEDFE/donations-compressed-edfe";  
     const uint32_t threshold = 1000;  // Threshold for the scan operation
 
     std::ifstream inFile(filename, std::ios::binary);
